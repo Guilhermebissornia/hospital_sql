@@ -148,37 +148,37 @@ insert into especialidade(id_especialidade, nome_especialidade) values(7, 'Ortop
 
 -- Inserindo dados na tabela Tipo de quarto
 --
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(1, '1000.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(2, '700.00', 'Quartos duplos');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(3, '500.00', 'Enfermaria');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(1, '100.00', 'Apartamento');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(2, '800.00', 'Quartos duplos');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(3, '300.00', 'Enfermaria');
 
 
 -- Inserindo dados na tabela Medico
 --
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(1, 'Alex Borges', 1472581234, 745896, 'alexborges@gmail.com', 'Residente', 6); 
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(2, 'Joao Felix', '74126956', '123789', 'joaofelix@gmail.com', 'Residente', 7);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(3, 'Dantas Pinheiros de Azevedo', '78531045', '569745', 'dantas.azevedo@gmail.com', 'Interno', 1);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(4, 'Cristiana Gouvea da Silva', '47965816', '459781', 'cristianagouvea@gmail.com', 'Residente', 5);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(5, 'Carlos Monteiro de Sousa', '14736985', '123780', 'carlosmonteiro@hotmail.com', 'Especialista', 6);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(6, 'Izabela Stevens', '36407814', '014698', 'izabelastevens@gmail.com', 'Residente', 2);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(7, 'Douglas de Oliveira Machado', '12047896', '814362', 'douglasdmachado@gmail.com', 'Interno', 3);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(8, 'Vitor Santos dos Anjos', '47158296', '654782', 'vitor.anjos@gmail.com', 'Especialista', 1);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(9, 'Miranda Chagas Nascimento', '47915768', '487127', 'mirandaChagas@gmail.com', 'Especialista', 2);
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(10, 'Eduardo Reis de Carvalho', '78469512', '147548', 'eduardolreis@gmail.com', 'Residente', 4);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(1, 'Dr octavio', 1472581234, 745896, 'Droctavio@gmail.com', 'Residente', 6); 
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(2, 'Dr werik', '74126956', '123789', 'Drwerik@gmail.com', 'Residente', 7);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(3, 'Dr gustavo ', '78531045', '569745', 'Drgustavo@gmail.com', 'Interno', 1);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(4, 'Dr gabriel', '47965816', '459781', 'Drgabriel@gmail.com', 'Residente', 5);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(5, 'Dr guilherme', '14736985', '123780', 'Drguilherme@hotmail.com', 'Especialista', 6);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(6, 'Dr vitória', '36407814', '014698', 'Drvitória@gmail.com', 'Residente', 2);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(7, 'Dr magal', '12047896', '814362', 'Drmagal@gmail.com', 'Interno', 3);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(8, 'Dr josé', '47158296', '654782', 'Drjosé@gmail.com', 'Especialista', 1);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(9, 'Dr stevam', '47915768', '487127', 'Drstevam@gmail.com', 'Especialista', 2);
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id) values(10, 'Dr paulo', '78469512', '147548', 'Drpaulo@gmail.com', 'Residente', 4);
 
 
 -- Inserindo dados na tabela Paciente
 --
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Aline Dias de Sousa', '1994-08-21', '74951847', '1462085-x', 'aline.dias02@gmail.com', null);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(2, 'Maria Eduarda Silva', '1970-08-21', '87165493', '1459870', 'eduarda.silva123@gmail.com', 4);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(3, 'Lucio Franco dos Santos', '200-01-11', '19874623', '3278451', 'franco.lucio@gmail.com', null);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(4, 'Flavio Conceição dos Santos', '1997-12-03', '65982365', '8541795', 'flaviosantos457@gmail.com', 1);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(5, 'José Fernando de Melo', '2002-05-04', '14785296', '2684197', 'josefernando@gmail.com', 3);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(6, 'Jackeline Costa', '1985-02-25', '65987436', '145987-x', 'jackelinecosta@gmail.com', 1);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(7, 'Daniela Alves da Silva', '1988-09-01', '65983063', '74859615', 'dani.alves@gmail.com', 2);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(8, 'Ruan Santiago', '2004-10-16', '85964723', '4569874', 'santiago43@gmail.com', null);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(9, 'Leandro Ferreira', '1970-01-30', '36985269', '25647891', 'leandro.ferreira@gmail.com', null);
-insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(10, 'Gabriela Alcantra da Souza', '1999-07-12', '36502178', '12097452', 'gabriela.souza@gmail.com', 2);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'elizabete bissornia', '1994-08-21', '74951847', '1462085-x', 'elizabete.bissornia@gmail.com', null);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(2, 'rodrigo Silva', '1970-08-21', '87165493', '1459870', 'rodrigo.silva123@gmail.com', 4);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(3, 'jorel dos Santos', '200-01-11', '19874623', '3278451', 'jorel.santos@gmail.com', null);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(4, 'maria', '1997-12-03', '65982365', '8541795', 'maria457@gmail.com', 1);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(5, 'sival de Melo', '2002-05-04', '14785296', '2684197', 'sival.melo@gmail.com', 3);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(6, 'jose wellington Costa', '1985-02-25', '65987436', '145987-x', 'josewellington.costa@gmail.com', 1);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(7, 'Daniel Alves da Silva', '1988-09-01', '65983063', '74859615', 'dani.alves@gmail.com', 2);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(8, 'Santiago santos', '2004-10-16', '85964723', '4569874', 'santiago43@gmail.com', null);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(9, 'maria fernanda', '1970-01-30', '36985269', '25647891', 'maria.fernanda@gmail.com', null);
+insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(10, 'Gabriela de Souza', '1999-07-12', '36502178', '12097452', 'gabriela.souza@gmail.com', 2);
 insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(11, 'Caio Xavier', '2002-06-23', '03269856', '69812045', 'xavier57@gmail.com', 4);
 insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(12, 'João Gabriel Pereira ', '1985-12-23', '63025789', '3265471', 'gabrielpereira@gmail.com', 1);
 insert into paciente(id_paciente, nome_paciente, dt_nasc_paciente, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(13, 'Ana Lúcia de Almeida', '1991-07-03', '85479623', '2436598', 'analucia@gmail.com', 4);
@@ -246,16 +246,16 @@ insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medic
 
 -- Inserindo dados na tabela Enfermeiro
 --
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Daniel Sousa', 74851574, '415879');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(2, 'José Armandes', 58749617, '254109');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(3, 'André Domingues', 78032145, '012478');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(4, 'Brenda de Araujo', 10479547, '960124');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(5, 'Antonio Domingues', 87459612, '784169');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(6, 'Julio Afonso de Sousa', 20147896, '894175');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(7, 'Patricia de Almeida', 12047953, '784196');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(8, 'Diego Silva', 2143608, '254987');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(9, 'Pedro Augusto', 74198569, '120478');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(10, 'Angelina do Anjos', 88742514, '251369');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, ' sauo santos', 74851574, '415879');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(2, 'sam condado', 58749617, '254109');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(3, 'frodo bolseiro', 78032145, '012478');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(4, 'dwayne jhonson', 10479547, '960124');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(5, 'patrica santos', 87459612, '784169');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(6, 'lia antunes', 20147896, '894175');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(7, 'harry potter', 12047953, '784196');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(8, 'goku', 2143608, '254987');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(9, 'naruto', 74198569, '120478');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(10, ' jeff grosso', 88742514, '251369');
 
 
 -- Inserindo dados na tabela Consulta
