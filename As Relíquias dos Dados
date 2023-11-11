@@ -56,7 +56,7 @@ on c.medico_id = m.id_medico group by c.medico_id;
 
 
 -- 10 
-insert into medico(nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, em_atividade) values('Gabriel Augusto', 45679312, 123456, 'gabriel.augusto@gmail.com', 'Especialista', 3, 'Ativo');
+insert into medico(nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, em_atividade) values('stivie williams', 45679312, 123456, 'stivie.williams@gmail.com', 'Especialista', 3, 'Ativo');
 insert into endereco(logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values('R. Itapiru', 04143-010, 'Vila da Saúde', 'São Paulo', 'São Paulo', 11, null);
 insert into telefone(ddd, numero, medico_id, paciente_id) values(11, 943658977, 11, null);
 
